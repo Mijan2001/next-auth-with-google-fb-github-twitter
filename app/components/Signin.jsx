@@ -5,7 +5,7 @@ const Signin = () => {
     return (
         <form action={doSignIn} className="hover:text-amber-200 cursor-pointer">
             <button type="submit" className="cursor-pointer">
-                Sign In with Google
+                Sign In with Google/Github/Facebook/Twitter
             </button>
         </form>
     );
